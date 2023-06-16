@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+
+  python:
+    image: python
+    container_name: python
+    volumes:
+      - ./volumes/python:/app
