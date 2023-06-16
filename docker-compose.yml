@@ -3,7 +3,7 @@ version: '3.9'
 services:
 
   python:
-    image: python
+    image: python:3.9.17-slim-bullseye
     container_name: python
     volumes:
       - ./volumes/python:/app
